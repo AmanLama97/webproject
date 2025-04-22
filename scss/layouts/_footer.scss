@@ -1,0 +1,32 @@
+footer{
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    h3{
+        color: white;
+        padding-left: 30px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        li{
+            color: white;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .footer-icon{
+        padding-right: 10px;
+
+       ul{
+        li{
+            font-size: 20px;
+        }
+       }
+    }
+}
