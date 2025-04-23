@@ -171,19 +171,9 @@ header nav .icons a {
   font-size: 16px;
 }
 
-.tools .all-container {
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.tools .all-container .tool-container img {
-  border: 1px solid rgba(0, 0, 0, 0.397);
-  height: 300px;
-  width: 300px;
-}
-.tools .all-container .tool-container p {
+.tools span {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .project .project-slider {
@@ -194,6 +184,10 @@ header nav .icons a {
 }
 .project .project-slider .owl-dots {
   display: none;
+}
+
+.form {
+  border: 3px solid black;
 }
 
 footer {
